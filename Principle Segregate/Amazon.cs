@@ -1,4 +1,6 @@
-﻿namespace PrincipleSegregate
+﻿using System;
+
+namespace PrincipleSegregate
 {
     internal class Amazon : ICloudHostingProvider, ICloudStoregeProvider, ICDN
     {
